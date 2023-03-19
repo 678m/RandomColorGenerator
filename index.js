@@ -26,5 +26,6 @@ function addColor(){
    boxes.forEach(box => {
       let newColor = HexColors();
       box.style.backgroundColor = newColor;
+      box.innerHTML = newColor;
    });
 }
