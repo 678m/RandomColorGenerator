@@ -8,6 +8,7 @@ body{
     min-height: 100vh;
     color:  #FEE715FF ;
     background: #101820FF; 
+    margin: 0 2rem 0 2rem;
 }
 .heading{
 margin:20px auto;
@@ -33,4 +34,17 @@ padding-top: 35px;
 .btn:hover{
     background-color: rgb(33, 50, 68);
     color: #FEE715FF;
+}
+.container{
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box{
+   width:33.3%;
+   height: 150px;
+   background-color: #fff;
+   border: 2px solid #FEE715FF;
+   border-radius: 8px;
 }
