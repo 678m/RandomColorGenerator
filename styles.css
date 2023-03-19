@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    color:  #FEE715FF ;
+    background: #101820FF; 
+}
+.heading{
+margin:20px auto;
+text-align: center;
+padding-top: 35px;
+}
+
+.btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #FEE715FF;
+    color: #101820FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(33, 50, 68);
+    color: #FEE715FF;
+}
